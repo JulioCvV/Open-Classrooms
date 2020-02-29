@@ -32,7 +32,7 @@
 .o-user{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .o-buildings-container{
     display: flex;
