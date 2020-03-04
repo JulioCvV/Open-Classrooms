@@ -1,3 +1,8 @@
+/* To delete header border */
+body{
+    margin: 0;
+    padding: 0;
+}
 /* Header start */
 .o-header{
     background-color: #093C51;
@@ -63,12 +68,14 @@ li:hover{
 }
 /* Navigation bar end */
 
-.o-btn-back {
+.o-btn-back,.o-btn-link {
     display: flex;
     top: 70px;
     left: 20px;
     font-family: 'Roboto',sans-serif;
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 
 /* Classroom Cards start */
