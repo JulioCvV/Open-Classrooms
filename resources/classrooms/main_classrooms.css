@@ -59,12 +59,14 @@ li:hover{
 }
 /* Navigation bar end */
 
-.o-btn-back {
+.o-btn-back,.o-btn-link {
     display: flex;
     top: 70px;
     left: 20px;
     font-family: 'Roboto',sans-serif;
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 
 /* Classroom Cards start */
@@ -82,7 +84,11 @@ li:hover{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 0.75rem;
     margin: 1rem 1rem 1rem 0;
-    cursor: pointer;
+    cursor: pointer;    
+    transition: 0.3s;
+}
+.o-classroom:hover{
+    transform: scale(1.1);
 }
 .o-img-card{
     width: 16rem;
