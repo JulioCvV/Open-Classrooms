@@ -1,3 +1,4 @@
+/* Header start */
 .o-header{
     background-color: #093C51;
 }
@@ -34,6 +35,13 @@
     align-items: center;
     justify-content: center;
 }
+/* Header end */
+
+/* Building Cards start */
+.o-search-classroom-link,.o-search-classroom-link:visited{
+    text-decoration: none;
+    color: #000;
+}
 .o-buildings-container{
     display: flex;
     flex-direction: column;
@@ -53,3 +61,4 @@
 .o-info-card{
     padding: 0 1rem 1rem 1rem;
 }
+/* Building Cards end */
