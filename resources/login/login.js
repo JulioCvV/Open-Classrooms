@@ -5,7 +5,7 @@ let stPass="";
 function login (){    
     stEmail = document.getElementById('email').value;
     stPass = document.getElementById('pass').value;
-    if(stEmail =="juandavid.valero@uao.edu.co" && stPass =="123"){
+    if(stEmail =="juandavid.moreno@uao.edu.co" && stPass =="123"){
         window.location.assign('buildings.html');
     }
     else{
