@@ -32,6 +32,10 @@ body {
   font-weight: 400;
   color: var(--whiteColor);
 }
+
+#appName h1 {
+  text-align: left;
+}
 .o-user_icon {
   width: 3rem;
   height: 3rem;
@@ -487,7 +491,6 @@ table td {
 
   /* Container btn back start */
 
-
   /* Container header calendar start */
 
   .o-header-calendar {
@@ -579,7 +582,6 @@ table td {
 
   /* Container header calendar end */
 
-
   /* Container Calendar Body start */
 
   .o-calendar-body {
@@ -591,7 +593,7 @@ table td {
     background-color: rgba(240, 240, 240, 0.41);
   }
 
-/* Container calendar time start */
+  /* Container calendar time start */
 
   .o-time {
     width: 80px;
@@ -608,9 +610,9 @@ table td {
     display: none;
   }
 
-/* Container calendar time end */
+  /* Container calendar time end */
 
-/* Container calendar day start */
+  /* Container calendar day start */
 
   .o-calendar-day {
     display: flex;
@@ -662,10 +664,9 @@ table td {
     color: var(--orangeColor);
   }
 
-/* Container calendar day end */
+  /* Container calendar day end */
 
-
-/* Container calendar table start */
+  /* Container calendar table start */
 
   .o-calendar-table {
     width: 100%;
@@ -681,9 +682,9 @@ table td {
   table td {
     padding: 0px 20px;
   }
-/* Container calendar table end */
+  /* Container calendar table end */
 
-/* Container calendar cards start */
+  /* Container calendar cards start */
 
   .o-card-class {
     position: absolute;
@@ -752,12 +753,11 @@ table td {
     width: 16%;
     height: 170px;
   }
-/* Container calendar cards end */
-
+  /* Container calendar cards end */
 
   /* Container Calendar Body end */
 
-/* Container calendar info start */
+  /* Container calendar info start */
 
   .o-container-info {
     width: 79%;
@@ -799,4 +799,31 @@ table td {
   }
 
   /* Container calendar info end */
+}
+
+@media only screen and (min-width: 1350px) {
+  .o-card-class {
+    position: absolute;
+    top: 202px;
+    left: 280px;
+    width: 15%;
+    height: 160px;
+    background-color: var(--whiteColor);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .o-c2 {
+    position: absolute;
+    top: 350px;
+    left: 568px;
+    width: 15%;
+    height: 114px;
+  }
+  .o-c3 {
+    position: absolute;
+    top: 500px;
+    left: 856px;
+    width: 15%;
+    height: 162px;
+  }
 }
