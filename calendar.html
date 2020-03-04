@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700&display=swap"
         rel="stylesheet">
+    <!-- CSS CALENDAR -->
     <link rel="stylesheet" href="resources/calendar/calendarstyle.css">
     <title>Calendario</title>
 </head>
 
 <body>
+    <!-- Header section start -->
     <div id="header" class="o-header">
         <div class="o-sub-header">
             <div id="headerTitle" class="o-title">
@@ -22,12 +25,19 @@
             </div>
         </div>
     </div>
+    <!-- Header section end -->
+
+    <!-- Container calendar start -->
 
     <div class="o-container-calendar">
+        <!-- Button back start -->
         <div class="o-btn-back">
-            <img src="resources/calendar/arrow-back.svg" alt="">
+            <a href="/classrooms.html"><img src="resources/calendar/arrow-back.svg" alt=""></a>
             <h3>Volver</h3>
         </div>
+        <!-- Button back end -->
+
+        <!-- Container header calendar start -->
         <div class="o-header-calendar">
             <div class="o-select-date">
                 <div class="o-date">
@@ -46,9 +56,11 @@
                 </div>
             </div>         
         </div>
-        
+        <!-- Container header calendar end -->
 
-        <div class="o-calendar-body">        
+        <!-- Calendar body start -->        
+        <div class="o-calendar-body">     
+            <!-- Container calendar time start -->   
             <div class="o-time">
                 <div class="o-clock">
                     <img src="resources/calendar/clock.svg" alt="">
@@ -72,6 +84,9 @@
                     <h3>12 pm</h3>
                 </div>
             </div>
+            <!-- Container calendar time end -->   
+
+            <!-- Container calendar day start -->   
             <div class="o-calendar-day">
                 <div class="o-day o-active">
                     <h2>26</h2>
@@ -95,6 +110,9 @@
                 </div>
                 
             </div>
+            <!-- Container calendar day end -->   
+
+            <!-- Container calendar table start -->   
 
             <div class="o-calendar-table">
                 <table>
@@ -173,12 +191,14 @@
                         <td></td>
                     </tr>
                 </table>
-            </div>
-
-            
+            </div>         
+            <!-- Container calendar table end -->   
             
             
         </div>
+        <!-- Calendar body end -->
+
+            <!-- Container calendar info start -->   
 
         <div class="o-container-info">
             <div class="o-info">
@@ -194,10 +214,10 @@
                 <p>En clase</p>
             </div>
         </div>
+            <!-- Container calendar info end -->   
         
     </div>
-
-
+    <!-- Container calendar end -->
 
 </body>
 

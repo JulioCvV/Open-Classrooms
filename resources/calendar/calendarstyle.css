@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-/* HEADER */
+/* Header Section start */
 
 .o-header {
   background-color: #093c51;
@@ -47,9 +47,9 @@ body {
   align-items: center;
 }
 
-/* HEADER */
+/* Header Section end */
 
-/* CALENDAR */
+/* Container calendar start */
 
 .o-container-calendar {
   display: flex;
@@ -67,6 +67,12 @@ body {
   top: 70px;
   left: 20px;
   cursor: pointer;
+}
+
+.o-btn-back a {
+  position: relative;
+  top: 18px;
+  left: -3px;
 }
 .o-btn-back h3 {
   font-family: "Roboto", sans-serif;
@@ -163,7 +169,7 @@ body {
   text-align: center;
 }
 
-/* Calendar Body */
+/* Container calendar body start */
 
 .o-calendar-body {
   display: flex;
@@ -175,6 +181,7 @@ body {
   background-color: rgba(240, 240, 240, 0.41);
   margin: 0 10%;
 }
+/* Container calendar day start */
 
 .o-calendar-day {
   display: flex;
@@ -190,7 +197,6 @@ body {
   width: 100px;
   height: 60px;
   align-items: center;
-
 }
 
 .o-day h2 {
@@ -220,6 +226,10 @@ body {
   color: var(--orangeColor);
 }
 
+/* Container calendar day end */
+
+/* Container calendar time start */
+
 .o-time {
   width: 90px;
   height: auto;
@@ -247,6 +257,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
+/* Container calendar time end */
+
+/* Container calendar table start */
 
 .o-calendar-table {
   width: 100%;
@@ -263,6 +276,10 @@ table {
 table td {
   border: 1px solid rgba(10, 11, 60, 0.22);
 }
+
+/* Container calendar table end */
+
+/* Container calendar cards start */
 
 .o-card-class {
   position: absolute;
@@ -342,6 +359,11 @@ table td {
   width: 14.8%;
   height: 162px;
 }
+/* Container calendar cards end */
+
+/* Container calendar body end */
+
+/* Container calendar info start */
 
 .o-container-info {
   width: 60%;
@@ -390,6 +412,9 @@ table td {
 .o-color-red {
   background-color: #fa3a3a;
 }
+/* Container calendar info start */
+
+/* Container calendar end */
 
 @media screen and (max-width: 600px) {
   .o-header {
@@ -434,7 +459,7 @@ table td {
 
   /* HEADER */
 
-  /* CALENDAR */
+  /* Container btn back start */
   .o-btn-back {
     display: flex;
     position: absolute;
@@ -443,9 +468,15 @@ table td {
     left: 5px;
     cursor: pointer;
   }
-  
-  .o-btn-back img{
-      width: 14px;
+
+  .o-btn-back a {
+    position: relative;
+    top: 12px;
+    left: -3px;
+  }
+
+  .o-btn-back img {
+    width: 14px;
   }
 
   .o-btn-back h3 {
@@ -453,6 +484,11 @@ table td {
     font-weight: normal;
     font-size: 12px;
   }
+
+  /* Container btn back start */
+
+
+  /* Container header calendar start */
 
   .o-header-calendar {
     width: 100%;
@@ -541,7 +577,10 @@ table td {
     font-size: 0.8rem;
   }
 
-  /* Calendar Body */
+  /* Container header calendar end */
+
+
+  /* Container Calendar Body start */
 
   .o-calendar-body {
     margin: 0;
@@ -552,21 +591,26 @@ table td {
     background-color: rgba(240, 240, 240, 0.41);
   }
 
+/* Container calendar time start */
+
   .o-time {
     width: 80px;
-    margin:2.4rem 0;
+    margin: 2.4rem 0;
   }
 
   .o-clock-number h3 {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    
   }
 
   .o-clock {
     display: none;
   }
+
+/* Container calendar time end */
+
+/* Container calendar day start */
 
   .o-calendar-day {
     display: flex;
@@ -618,6 +662,11 @@ table td {
     color: var(--orangeColor);
   }
 
+/* Container calendar day end */
+
+
+/* Container calendar table start */
+
   .o-calendar-table {
     width: 100%;
   }
@@ -632,6 +681,9 @@ table td {
   table td {
     padding: 0px 20px;
   }
+/* Container calendar table end */
+
+/* Container calendar cards start */
 
   .o-card-class {
     position: absolute;
@@ -652,39 +704,39 @@ table td {
     top: 0.5rem;
     left: 0.25rem;
   }
-  
+
   .o-class-name h1 {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 10px;
   }
-  
+
   .o-class-teacher {
     position: relative;
     top: 0.65rem;
     left: 0.25rem;
   }
-  
+
   .o-class-teacher h2 {
     font-family: "Roboto", sans-serif;
     color: #929292;
     font-size: 0.5rem;
     font-weight: normal;
   }
-  
+
   .o-class-time {
     position: absolute;
     bottom: 0;
     left: 0.25rem;
   }
-  
+
   .o-class-time h3 {
     font-family: "Roboto", sans-serif;
     font-size: 0.5rem;
     font-weight: normal;
     color: #929292;
   }
-  
+
   .o-c2 {
     position: absolute;
     top: 395px;
@@ -692,7 +744,7 @@ table td {
     width: 16%;
     height: 114px;
   }
-  
+
   .o-c3 {
     position: absolute;
     top: 565px;
@@ -700,7 +752,12 @@ table td {
     width: 16%;
     height: 170px;
   }
+/* Container calendar cards end */
 
+
+  /* Container Calendar Body end */
+
+/* Container calendar info start */
 
   .o-container-info {
     width: 79%;
@@ -726,7 +783,7 @@ table td {
     flex-direction: row-reverse;
     align-content: space-around;
   }
-  
+
   .o-info p {
     position: relative;
     bottom: 15px;
@@ -740,25 +797,6 @@ table td {
     width: 36px;
     height: 2px;
   }
+
+  /* Container calendar info end */
 }
-
-
-@media screen and (min-width: 1500px){
-  .o-calendar-day {
-    display: flex;
-    position: absolute;
-    justify-content: space-around;
-    width: 73.8%;
-    height: 5rem;
-    left: 218px;
-  }
-  .o-day {
-    display: flex;
-    flex-direction: row;
-    width: 100px;
-    height: 60px;
-    align-items: center;
-  
-  }
-}
-

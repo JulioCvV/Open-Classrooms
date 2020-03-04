@@ -12,6 +12,7 @@ body{
     font-family: 'Montserrat',sans-serif;
 }
 
+/* First container start */
 .o-container-login{
     width: 100vw;
     height: 100vh;
@@ -119,8 +120,10 @@ body{
     cursor: pointer;
 
 }
+/* First container end */
 
-/* Segundo contenedor */
+
+/* Second container start */
 
 .o-second-container{
     position: relative;
@@ -151,6 +154,9 @@ body{
     z-index: 2;
 }
 
+/* Second container end */
+
+/* Media query start */
 @media only screen and (max-width:900px){
 
     .o-first-container{
@@ -256,4 +262,5 @@ body{
         display: none;
     }
 }
+/* Media query end */
 
