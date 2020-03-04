@@ -2,13 +2,9 @@
 .o-header{
     background-color: #093C51;
 }
-.o-classrooms-container,.o-sub-header{
-    max-width: 1096px;
-    margin: auto;
-}
 .o-sub-header{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 .o-title{
     font-family: 'Montserrat',sans-serif;
@@ -17,9 +13,17 @@
     font-weight: 400;
     color: #fff;
 }
+#appName{
+    font-size: 1.75rem;
+    padding: 0.1rem;
+    text-align: center;
+}
+.o-user{
+    font-size: 1.125rem;
+}
 .o-user_icon{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     margin: 1rem;
 }
 .o-user,.o-free-classrooms{
@@ -29,12 +33,12 @@
 .o-user{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 /* Header end */
 
 /* Navigation bar start */
 .o-nav-menu{
-    max-width: 1096px;
     margin: auto;
     border: 1px solid #9CA7BC ;
     display: flex;
@@ -47,7 +51,7 @@ ul{
 }
 li{
     float: left;   
-    padding: 0.5rem 2rem; 
+    padding: 0.5rem 0.5rem; 
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
     color:#9CA7BC;
@@ -74,7 +78,8 @@ li:hover{
 }
 .o-card-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .o-classroom{
     width: 16rem;
